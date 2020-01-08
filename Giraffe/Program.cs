@@ -12,12 +12,12 @@ namespace Giraffe
         {
             // Console.WriteLine(" ____");
             // Console.WriteLine("/___|");
-            // Console.WriteLine("   /|");
+            // Console.WriteLine("   ||");
             // Console.WriteLine("  / |");
             // Console.WriteLine(" /  |");
             // Console.WriteLine("/___|");
 
-            
+
 
             Console.WriteLine("There once was a man named George");
             Console.WriteLine("He was 35 years old");
