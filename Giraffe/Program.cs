@@ -10,7 +10,21 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine(" ____");
+            // Console.WriteLine("/___|");
+            // Console.WriteLine("   /|");
+            // Console.WriteLine("  / |");
+            // Console.WriteLine(" /  |");
+            // Console.WriteLine("/___|");
+
+            
+
+            Console.WriteLine("There once was a man named George");
+            Console.WriteLine("He was 35 years old");
+            Console.WriteLine("He really liked the name George");
+            Console.WriteLine("But didn't like being 35");
+
+            Console.ReadLine();
         }
     }
 }
