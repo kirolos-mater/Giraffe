@@ -35,7 +35,7 @@ namespace Giraffe
             // double gpa = 3.3;
             // bool isMale = true;
 
-            
+
             // string phrase = "Giraffe Academy" + " is cool";
             // Console.WriteLine(phrase.Contains("Academy")); /* output: true */
             // Console.WriteLine(phrase[0]); /* output: G */
@@ -63,9 +63,237 @@ namespace Giraffe
             //
             // Console.WriteLine("Hello " + name + " you are " + age);
 
-            
-            
+            //Console.WriteLine("43" + "56"); 
+            ///* output: 4356 */
+
+            //int num = Convert.ToInt32("45");
+
+            //Console.WriteLine(num + 6);
+            ///* output: 51 */
+
+            // Console.Write("Enter a number: ");
+            // double num1 = Convert.ToInt32(Console.ReadLine());
+            // Console.Write("Enter another number: ");
+            // double num2 = Convert.ToInt32(Console.ReadLine());
+
+            // Console.WriteLine(num1 + num2);
+
+            //string color, pluralNoun, celebrity;
+
+            //Console.Write("Enter a color: ");
+            //color = Console.ReadLine();
+
+            //Console.Write("Enter a plural noun: ");
+            //pluralNoun = Console.ReadLine();
+
+            //Console.Write("Enter a celebrity: ");
+            //celebrity = Console.ReadLine();
+
+            //Console.WriteLine("Roses are red " + color);
+            //Console.WriteLine(pluralNoun + " are blue");
+            //Console.WriteLine("I Love " + celebrity);
+
+            //int[] luckyNumbers = {4, 8, 15, 16, 23, 42};
+
+            //luckyNumbers[1] = 900;
+
+            //string[] friends = new string[10];
+            //friends[0] = "Jim";
+            //friends[1] = "Kelly";
+
+            //Console.WriteLine(luckyNumbers[2]);
+            ///* output: 15 */
+
+
+            //SayHi("Mike", 33);
+
+            //Console.WriteLine(cube(5));
+            //double cubeNumber = cube(5);
+
+
+
+            //bool isMale = false;
+            //bool isTall = true;
+
+
+
+            //if (isMale && isTall)
+            //{
+            //    Console.WriteLine("You are a tall male");
+            //}
+            //else if(isMale && !isTall)
+            //{
+            //    Console.WriteLine("You are a short male");
+            //}else if(!isMale && isTall)
+            //{
+            //    Console.WriteLine("You are not male but you" +
+            //        "are tall");
+            //}else
+            //{
+            //    Console.WriteLine("You either not male or not" +
+            //        " tall or both");
+            //}
+
+            //if(isMale || isTall)
+            //{
+            //    Console.WriteLine("You are or tall or a male or both");
+            //} else
+            //{
+            //    Console.WriteLine("You either not male or not" +
+            //        " tall or both");
+            //}
+
+            //Console.WriteLine(GetMax(20, 10, 40));
+
+            //Console.WriteLine("Enter a number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter Operator: ");
+            //string op = Console.ReadLine();
+
+            //Console.WriteLine("Enter a number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
+
+            //if(op == "+")
+            //{
+            //    Console.WriteLine(num1 + num2);
+            //}else if(op == "-")
+            //{
+            //    Console.WriteLine(num1 - num2);
+            //}else if(op == "*")
+            //{
+            //    Console.WriteLine(num1 * num2);
+            //}else if(op == "/")
+            //{
+            //    Console.WriteLine(num1 / num2);
+            //}else if(op == "^")
+            //{
+            //    Console.WriteLine(Math.Pow(num1, num2));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You have entered an invalid operator");
+            //}
+
+
+            //Console.WriteLine(GetDay(80));
+
+            //int index = 1;
+            //while (index <= 5)
+            //{
+            //    Console.WriteLine(index);
+            //    index++;
+            //}
+
+            //do
+            //{
+            //    Console.WriteLine(index);
+            //    index++;
+            //} while (index <= 5);
+
+            //string secretWord = "giraffe";
+            //string guess = "";
+
+            //int guessCount = 0;
+            //int guessLimit = 3;
+            //bool outOfGuesses = false;
+
+            //while(guess != secretWord && !outOfGuesses)
+            //{
+            //    if (guessCount < guessLimit)
+            //    {
+            //        Console.Write("Enter Guess: ");
+            //        guess = Console.ReadLine();
+            //        guessCount++;
+            //    } else
+            //    {
+            //        outOfGuesses = true;
+            //    }       
+            //}
+
+            //if (outOfGuesses)
+            //{
+            //    Console.Write("You Lose!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You Win!");
+            //}
+
+            //int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+            //for (int i = 0; i < luckyNumbers.Length; i++)
+            //{
+            //    Console.WriteLine(luckyNumbers[i]);
+            //}
+
+
             Console.ReadLine();
         }
+
+        //static string GetDay(int dayNum)
+        //{
+        //    string dayName;
+        //    switch (dayNum)
+        //    {
+        //        case 0:
+        //            dayName = "Sunday";
+        //            break;
+        //        case 1:
+        //            dayName = "Monday";
+        //            break;
+        //        case 2:
+        //            dayName = "Tuesday";
+        //            break;
+        //        case 3:
+        //            dayName = "Wednesday";
+        //            break;
+        //        case 4:
+        //            dayName = "Thursday";
+        //            break;
+        //        case 5:
+        //            dayName = "Friday";
+        //            break;
+        //        case 6:
+        //            dayName = "Saturday";
+        //            break;
+        //        default:
+        //            dayName = "Invalid Day Number";
+        //            break;
+        //    }
+
+        //    return dayName;
+        //}
+
+        //static int GetMax(int num1, int num2, int num3)
+        //{
+        //    int result;
+
+        //    if(num1 >= num2 && num1 >= num3)
+        //    {
+        //        result = num1;
+        //    }
+        //    else if(num2 >= num1 && num2 >= num3)
+        //    {
+        //        result = num2;
+        //    }
+        //    else
+        //    {
+        //        result = num3;
+        //    }
+
+
+        //    return result;
+        //}
+
+        //static double cube(double num)
+        //{
+        //    double result = num * num * num;
+        //    return result;
+        //}
+
+        //static void SayHi(string name, int age)
+        //{
+        //    Console.WriteLine("Hello " + name + " you are " + age);
+        //}
     }
 }
