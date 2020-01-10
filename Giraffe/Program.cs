@@ -53,16 +53,18 @@ namespace Giraffe
             // Console.WriteLine(Math.Round(4.6)); /* output: 5 */
 
             // Console.WriteLine("Hello"); 
-            /* quando si usa il "WriteLine" stampa il valore e va a capo */
+            // /* quando si usa il "WriteLine" stampa il valore e va a capo */
 
-            Console.Write("Enter your name: ");
-            /* quando si usa il "Write" stampa il valore e rimane sulla stessa riga */
+            // Console.Write("Enter your name: ");
+            // /* quando si usa il "Write" stampa il valore e rimane sulla stessa riga */
+            // string name = Console.ReadLine();
+            // Console.Write("Enter your age: ");
+            // string age = Console.ReadLine();
+            //
+            // Console.WriteLine("Hello " + name + " you are " + age);
 
-            string name = Console.ReadLine();
-
-            Console.WriteLine("Hello " + name);
-
-
+            
+            
             Console.ReadLine();
         }
     }
