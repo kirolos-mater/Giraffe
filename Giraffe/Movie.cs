@@ -10,7 +10,24 @@ namespace Giraffe
         {
             title = aTitle;
             director = aDirector;
-            rating = aDirector;
+            Rating = aDirector;
+            
+        }
+
+        public string Rating
+        {
+            get { return rating;}
+            set
+            {
+                if (value == "G" || value == "PG-13" || value == "R" || value == "NR")
+                {
+                    rating = value;
+                }
+                else
+                {
+                    rating = "NR";
+                }
+            }
         }
     }
 }

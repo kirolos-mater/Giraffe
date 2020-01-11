@@ -274,9 +274,26 @@ namespace Giraffe
             // Console.WriteLine(student1.HasHonors());
             // Console.WriteLine(student2.HasHonors());
             
-            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
-            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
-            // G, PG, PG-13, R, NR
+            // Movie ave
+            
+            // Song holiday = new Song("Holiday", "Green Day", 200);
+            // Console.WriteLine(Song.songCount);
+            // Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            // Console.WriteLine(Song.songCount);
+            // Console.WriteLine(holiday.title);
+            // Console.WriteLine(kashmir.artist);
+            // Console.WriteLine(Song.songCount);
+            
+            // Console.WriteLine(Math.Sqrt(144));
+            
+            // UsefulTools.SayHi("Mike");
+            
+            Chef chef = new Chef();
+            chef.MakeChicken();
+            chef.MakeSpecialDish();
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();
 
             Console.ReadLine();
         }
