@@ -225,10 +225,73 @@ namespace Giraffe
             //{
             //    Console.WriteLine(luckyNumbers[i]);
             //}
+            
+            // Console.WriteLine(GetPow(3, 2));
 
+            // int[,] numberGrid =
+            // {
+            //     {1, 2},
+            //     {3, 4},
+            //     {5, 6}
+            // };
+            //
+            // Console.WriteLine(numberGrid[1, 0]);
+            // /* output: 3 */
+            
+            // Console.WriteLine("Comments are fun");
+
+            // try
+            // {
+            //     Console.Write("Enter a number: ");
+            //     double num1 = Convert.ToInt32(Console.ReadLine());
+            //     Console.Write("Enter another number: ");
+            //     double num2 = Convert.ToInt32(Console.ReadLine());
+            //
+            //     Console.WriteLine(num1 / num2);
+            // }
+            // catch (DivideByZeroException e)
+            // {
+            //     Console.WriteLine(e.Message);
+            // }
+            // catch (FormatException e)
+            // {
+            //     Console.WriteLine(e.Message);
+            // }
+            // finally
+            // {
+            //     Console.WriteLine("Done");
+            // }    
+            
+            // Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            // Book book2 = new Book("Lord of the Rings", "Tolkien", 700);
+            //
+            // Console.WriteLine(book1.title);
+            // Console.WriteLine(book2.author);
+            
+            // Student student1 = new Student("Jim", "Business", 2.8);
+            // Student student2 = new Student("Pam", "Art", 3.6);
+            //
+            // Console.WriteLine(student1.HasHonors());
+            // Console.WriteLine(student2.HasHonors());
+            
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            // G, PG, PG-13, R, NR
 
             Console.ReadLine();
         }
+
+        // static int GetPow(int baseNum, int powNum)
+        // {
+        //     int result = 1;
+        //
+        //     for (int i = 0; i < powNum; i++)
+        //     {
+        //         result = result * baseNum;
+        //     }
+        //
+        //     return result;
+        // }
 
         //static string GetDay(int dayNum)
         //{
