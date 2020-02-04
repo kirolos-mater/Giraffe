@@ -10,12 +10,12 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine(" ____");
-            // Console.WriteLine("/___|");
-            // Console.WriteLine("   ||");
-            // Console.WriteLine("  / |");
-            // Console.WriteLine(" /  |");
-            // Console.WriteLine("/___|");
+            Console.WriteLine(" ____");
+            Console.WriteLine("/___|");
+            Console.WriteLine("   ||");
+            Console.WriteLine("  / |");
+            Console.WriteLine(" /  |");
+            Console.WriteLine("/___|");
 
             // string characterName = "Tom";
             // int characterAge;
